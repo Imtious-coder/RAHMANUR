@@ -1,0 +1,62 @@
+.Navbar {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Navbar_Logo {
+    color: #fdaa10!important;
+    font-weight: bold;
+    font-size: 32px!important;
+    margin: 0;
+}
+
+#Navbar_SignUp_Button {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #5c50ff, #4b3ef9);
+}
+
+#Navbar_SignUp_Button:hover {
+    background-image: linear-gradient(to right, #4b3ef9, #5c50ff);
+}
+
+.Navbar_SignUp_Button_Icon {
+    font-size: 12px!important;
+    margin-left: 10px;
+}
+
+.Banner_Navigation {
+    height: 40px;
+    background: rgb(227, 235, 255);
+    transform: translateY(-20px);
+    border-radius: 5px;
+}
+
+.Banner_Navigation:hover {
+    background: rgb(213, 225, 255);
+}
+
+.Banner_Navigation_Item {
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #4e4e4e;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.Banner_Navigation_Item:hover {
+    border-bottom: 3px solid #fdaa10;
+}
+
+.Banner_Navigation_Item_icon {
+    font-size: 10px;
+    margin-left: 5px;
+    transform: translateY(-1px);
+}
